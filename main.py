@@ -21,4 +21,4 @@ if password:
     if check_password_strength(password):
         st.success("Password Created Successfully.", icon="✅")
     else:
-        st.error("Weak Password It should contain Max. 8 Characters Include Small & Capital letters, Numbers, And Special Characters", icon="🔴")
+        st.error("Weak Password! Please Try Again, Password should contain Max. 8 Characters Include Small & Capital letters, Numbers, And Special Characters.", icon="🔴")
