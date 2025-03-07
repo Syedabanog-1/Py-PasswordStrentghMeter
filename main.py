@@ -19,6 +19,6 @@ password = st.text_input("Enter your password", type="password")
 
 if password:
     if check_password_strength(password):
-        st.success("Yes Strong Password Created Successfully.", icon="✅")
+        st.success("Password Created Successfully.", icon="✅")
     else:
-        st.error("Invalid Password! Please Try Again.", icon="❌")
+        st.error("Weak Password It should contain Max. 8 Characters Include Small & Capital letters, Numbers, And Special Characters", icon="🔴")
